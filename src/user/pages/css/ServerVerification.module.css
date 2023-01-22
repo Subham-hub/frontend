@@ -1,0 +1,21 @@
+.content {
+  background-image: linear-gradient(45deg, green, snow, orange);
+  height: fit-content;
+  padding-bottom: 3rem;
+}
+.heading {
+  padding-top: 2.5rem;
+}
+.input {
+  padding-top: 5rem;
+}
+.check {
+  margin-left: 5rem;
+}
+.important-note {
+  font-weight: bolder;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 2rem 5rem;
+  padding: 1rem;
+}

@@ -1,0 +1,29 @@
+.content {
+  padding: 6rem 0;
+  background: white;
+}
+.card {
+  background: white;
+}
+.inner {
+  width: 35%;
+}
+.fields select {
+  font-size: large;
+}
+@media (max-width: 1400px) {
+  .inner {
+    width: 60%;
+  }
+}
+@media (max-width: 1000px) {
+  .inner {
+    width: 80%;
+  }
+}
+@media (max-width: 650px) {
+  .content .btn button {
+    margin-bottom: 1rem;
+    font-size: 14px;
+  }
+}

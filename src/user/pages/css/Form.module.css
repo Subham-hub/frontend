@@ -1,0 +1,18 @@
+.content {
+  margin: 3rem 0;
+  /* cursor: none; */
+}
+.inner {
+  padding: 3rem 6rem;
+}
+.inner label {
+  float: left;
+}
+.inner img {
+  border-radius: 10rem;
+}
+.header {
+  text-decoration: underline;
+  font-size: small;
+  padding: 1rem 0;
+}

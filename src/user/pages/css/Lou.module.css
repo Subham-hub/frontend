@@ -1,0 +1,39 @@
+.content {
+  word-spacing: 8px;
+  padding: 4rem 3rem;
+  background: white;
+}
+.content p {
+  padding-bottom: 10px;
+}
+.content .heading h1 {
+  text-align: center;
+  font-weight: lighter;
+}
+.content .sub-heading {
+  padding: 50px 0px 0px 20px;
+}
+.content .subject {
+  padding: 20px 0px 0px 50px;
+  font-weight: lighter;
+  display: inline-block;
+}
+.container .subject h5 {
+  font-weight: lighter;
+  display: inline-block;
+}
+.content .para input,
+.content .para textarea,
+.content footer input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  color: black;
+  transition: 0.8s all;
+}
+.content .para input:focus,
+.content .para textarea:focus,
+.content footer input:focus {
+  outline: none;
+  border-color: #3944f7;
+}

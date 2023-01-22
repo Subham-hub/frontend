@@ -1,0 +1,23 @@
+.content {
+  padding: 9rem 0;
+  background-color: white;
+}
+.inner {
+  width: 40%;
+  background: whitesmoke;
+}
+.wrapper {
+  text-align: left;
+}
+.wrapper b {
+  color: purple;
+}
+
+.btn {
+  margin: 10px 0;
+}
+@media (max-width: 1200px) {
+  .inner {
+    width: 80%;
+  }
+}

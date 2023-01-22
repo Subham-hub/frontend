@@ -1,0 +1,31 @@
+.content {
+  padding: 1rem 2rem;
+  background: white;
+}
+.content li {
+  padding-left: 2rem;
+}
+
+.content .inner {
+  width: fit-content;
+}
+.content h3 {
+  width: fit-content;
+  background-color: yellow;
+}
+.content .heading {
+  text-align: center;
+}
+.content input,
+.content textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  color: black;
+  transition: 0.8s all;
+}
+.content input:focus,
+.content textarea:focus {
+  outline: none;
+  border-color: #3944f7;
+}

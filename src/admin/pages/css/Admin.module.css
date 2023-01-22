@@ -1,0 +1,19 @@
+.content {
+  background: white;
+  padding: 6rem 0;
+}
+.inner {
+  background: white;
+  width: 30%;
+}
+.btn{
+  margin: 1rem 0;
+}
+.content span{
+  visibility: hidden;
+}
+@media (max-width: 1300px) {
+  .inner {
+    width: 80%;
+  }
+}
